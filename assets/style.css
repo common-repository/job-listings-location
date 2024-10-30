@@ -1,0 +1,37 @@
+.njb-location-field:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.njb-location-field > select {
+    float: left;
+    margin-right: 2% !important;
+}
+
+.njb-location-field > select:last-child {
+    margin-right: 0 !important;
+}
+
+.njb-location-field.njb-location-col-2 .jlt-location-control {
+    width: 49% !important;
+
+}
+
+.njb-location-field.njb-location-col-3 .jlt-location-control {
+    width: 32% !important;
+
+}
+
+.jlt-location-control:disabled {
+    cursor: not-allowed;
+    background-color: #d4d4d4 !important;
+}
+
+.jlt-location-address {
+    margin-top: 15px;
+}
+
+.job-map {
+    margin-bottom: 15px;
+}
